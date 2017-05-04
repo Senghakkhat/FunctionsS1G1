@@ -26,11 +26,31 @@ int main(void) {
 	return 1;
 }
 
+int getSum(int myArray[],int n);
+{
+  int sum=0;
+  for(int i=0;i<n;i++)
+    sum+=arr[i];
+	return sum;
+}
+
+
+
+int getSumOfSquares(int myArray[],int n);
+{
+  int sum=0;
+  for(int i=0;i<n;i++){
+    sum+=arr[i]^2;
+  }
+	return sum;
+}
+
+
 
 
 
 void printGroupMemberNames() {
-	printf("Name1\n ");
+	printf("Senhak khat\n ");
 	printf("Name2\n ");
 	printf("Name3\n ");
 	printf("That's it!\n");

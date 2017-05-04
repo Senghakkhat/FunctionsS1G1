@@ -50,7 +50,7 @@ int getSumOfSquares(int myArray[],int n);
 
 
 void printGroupMemberNames() {
-	printf("Senhak khat\n ");
+	printf("Senghak khat\n ");
 	printf("Name2\n ");
 	printf("Name3\n ");
 	printf("That's it!\n");
